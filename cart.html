@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="en">
   <head>
+    <link rel="shortcut icon" href="../hhh.png" type="image/x-icon" />
     <meta charset="UTF-8" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -15,20 +16,13 @@
     ></script>
 
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.2.19/dist/tailwind.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-
+    <link rel="stylesheet" href="cart.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>نیوکالا</title>
+    <title>سبد خرید | نیوکالا</title>
   </head>
   <body>
     <nav id="res">
@@ -38,23 +32,10 @@
           <li id="formNav"><a href="form.html">ورود به حساب کاربری</a></li>
           <li id="cateNav"><a href="category.html">دسته بندی ها</a></li>
           <li id="cartNav"><a href="cart.html">سبد خرید</a></li>
-          <input type="search" placeholder="جستجو در نیوکالا" id="searchInput" />
         </ul>
       </div>
     </nav>
-    <form>
-      <div id="searchbar" class="m-2" d-flex>
-        <input type="search" id="searchInput-res" placeholder="جستجو در نیوکالا">
-      </div>
-    </form>
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-        <!-- Products will be dynamically added here -->
-      </div>
-      <!-- Add Pagination -->
-      <div class="swiper-pagination"></div>
-    </div>
-    <br />
+
     <div id="nav-bar">
       <nav>
         <div class="icons-container">
@@ -68,26 +49,13 @@
       </nav>
     </div>
     <br />
-    <div id="off-products">
-      <h2 style="font-weight: bold">00</h2>
-      <br />
-      <p1>پیشنهاد شکفت انگیز نیوکالا</p1>
-      <br />
-      <br />
-      <div class="off-products"></div>
-    </div>
-    <br />
+<div id="cartProducts">
 
-    <div id="all-products" class="text-black-500">
-      <h1></h1>
-    </div>
-    <br />
+</div>
 
-    <div class="swiper-container">
-      <div class="swiper-wrapper"></div>
-    </div>
-    <br />
-    <br>
-    <script src="script.js"></script>
+<div id="buyBtn">
+
+</div>
+    <script src="cart.js"></script>
   </body>
 </html>
